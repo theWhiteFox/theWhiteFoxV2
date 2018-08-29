@@ -1,9 +1,10 @@
 /* Header */
 
 header {
-  @include rem(padding, 25px 0 25px 0);
-  background-color: #fff;
+  // @include rem(padding, 25px 0 25px 0);
+  background-color: #662219;
   border-bottom: 1px solid #ddd;
+  color:white;
   .container {
     padding: 0;
   }
@@ -11,4 +12,5 @@ header {
 
 .navbar-brand {
   font-size: 32px;
+  color:white;
 }

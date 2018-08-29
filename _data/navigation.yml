@@ -1,22 +1,22 @@
 # example /_data/navigation.yml
 - title: "About"
-  href: /about/
+  href: /theWhiteFoxV2/about/
 
 - title: "Services"
-  href: /services/
+  href: /theWhiteFoxV2/services/
   subcategories:
     - subtitle: "Email"
-      subhref: "/services/email/"
+      subhref: "/theWhiteFoxV2/services/email/"
     - subtitle: "Domains"
-      subhref: "/services/domains"
+      subhref: "/theWhiteFoxV2/services/domains"
     - subtitle: "Hosting"
-      subhref: "/services/hosting"
+      subhref: "/theWhiteFoxV2/services/hosting"
 
 - title: "Websites"
-  href: /websites/
+  href: /theWhiteFoxV2/websites/
 
 - title: "Testimonials"
-  href: /testimonials/
+  href: /theWhiteFoxV2/testimonials/
 
 - title: "Contact"
-  href: /contact/
+  href: /theWhiteFoxV2/contact/

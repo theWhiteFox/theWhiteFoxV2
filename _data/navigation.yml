@@ -3,20 +3,4 @@
   href: /theWhiteFoxV2/about/
 
 - title: "Blog"
-  href: /theWhiteFoxV2/services/
-  subcategories:
-    - subtitle: "Email"
-      subhref: "/theWhiteFoxV2/services/email/"
-    - subtitle: "Domains"
-      subhref: "/theWhiteFoxV2/services/domains"
-    - subtitle: "Hosting"
-      subhref: "/theWhiteFoxV2/services/hosting"
-
-- title: "Websites"
-  href: /theWhiteFoxV2/websites/
-
-- title: "Testimonials"
-  href: /theWhiteFoxV2/testimonials/
-
-- title: "Contact"
-  href: /theWhiteFoxV2/contact/
+  

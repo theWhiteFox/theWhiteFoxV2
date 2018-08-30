@@ -2,8 +2,20 @@
 
 .navbar-toggler {
   cursor: pointer;
-  background-color: white;
+  color: white;  
 }
+
+.navbar-toggler:hover {
+  // @include rem(padding, 8px 15px 8px 15px !important);
+  cursor: pointer;
+  background-color: rgba(0,0,0,.3);  
+}
+
+.icon {
+  width: 16px;
+  height: 16px; 
+};
+
 
 .subcategory {
   @include rem(padding, 8px 15px 8px 15px !important);
@@ -58,6 +70,7 @@
 .nav-sublink {
   display: block;
   color: rgba(0, 0, 0, 0.5);
+  font-family: "existencelight", sans-serif;
   &:hover {
     text-decoration: none;
     color: #555;

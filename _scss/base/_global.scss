@@ -1,4 +1,38 @@
 /* Global */
+@font-face {
+  font-family: "Fira Code";
+  src: url(../fonts/fira-code/eot/FiraCode-Light.eot);
+  src: url(../fonts/fira-code/eot/FiraCode-Light.eot)
+      format("embedded-opentype"),
+    url(../fonts/fira-code/woff2/FiraCode-Light.woff2) format("woff2"),
+    url(../fonts/fira-code/woff/FiraCode-Light.woff) format("woff"),
+    url(../fonts/fira-code/ttf/FiraCode-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: existencelight;
+  src: url(../fonts/existence-light/Existence-Light-webfont.eot);
+  src: url(../fonts/existence-light/Existence-Light-webfont.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/existence-light/Existence-Light-webfont.woff) format("woff"),
+    url(../fonts/existence-light/Existence-Light-webfont.ttf) format("truetype"),
+    url(../fonts/existence-light/Existence-Light-webfont.svg#existencelight)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: typicons;
+  src: url(../fonts/typicons/typicons.eot);
+  src: url(../fonts/typicons/typicons.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/typicons/typicons.woff) format("woff"),
+    url(../fonts/typicons/typicons.ttf) format("truetype"),
+    url(../fonts/typicons/typicons.svg#typicons) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
 
 * {
   box-sizing: border-box;
@@ -10,9 +44,9 @@ html {
 }
 
 body {
-  font-size: 18px;
-  line-height: 1.6;
-  font-family: "arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "Fira Code", sans-serif;
   background-color: #333;
 }
 
@@ -28,4 +62,8 @@ img {
   .container {
     width: 1250px;
   }
+}
+
+h1 {
+  font-family: "existencelight", sans-serif;
 }

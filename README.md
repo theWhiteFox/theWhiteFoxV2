@@ -35,4 +35,4 @@ This is the git repository for `theWhiteFox.ninja` Web App :boom:
 
 3. Run "gulp" via the cmd line to compile uncompressed sass and js as well as build the website in _site. It will also start Browsersync to watch for changes
 
-`bundle exec jekyll serve --watch`
+`bundle exec gulp`

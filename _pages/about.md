@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: theWhiteFoxV2/about/
+permalink: /about/
 ---
 
-About page content
+Blog page content

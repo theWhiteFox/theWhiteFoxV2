@@ -10,9 +10,9 @@
     font-size: 16px;
     color: #777;
   }
-  @include media-breakpoint-down(sm) {
-    display: none;
-  }
+  // @include media-breakpoint-down(sm) {
+  //   display: none;
+  // }
 }
 
 .phone,

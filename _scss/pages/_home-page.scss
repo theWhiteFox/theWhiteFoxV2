@@ -1,12 +1,16 @@
 /* Home Page */
 
 .home-page-intro-container {
-  background-color: #fff;
+  background-color: #faf6ec;
+}
+
+.home-page-intro-container a {
+  color:cornflowerblue;
 }
 
 .home-intro {
   display: block;
-  @include rem(padding, 20px 0 20px 0);
+  @include rem(padding, 10px 0 10px 0);
   @include media-breakpoint-down(sm) {
     padding-bottom: 0;
     .btn-success {

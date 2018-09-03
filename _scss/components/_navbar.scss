@@ -7,13 +7,13 @@
 
 .navbar-toggler:hover {
   // @include rem(padding, 8px 15px 8px 15px !important);
-  cursor: pointer;
-  background-color: rgba(0,0,0,.3);  
+  cursor: pointer; 
 }
 
-.icon {
+.menu-icon {
   width: 16px;
   height: 16px; 
+  // padding-bottom: 10px;
 };
 
 
@@ -82,6 +82,7 @@
 }
 
 .nav-item {
+  color: red;
   &:hover {
     .subcategory {
       opacity: 1;
@@ -119,6 +120,7 @@
         @include rem(padding, 12px 0 12px 0 !important);
         margin-left: 0;
         background-color: transparent;
+        color:white;
       }
     }
   }
@@ -160,4 +162,12 @@
 .subcategory.open {
   display: block;
   border-top:1px solid #eee;
+}
+
+a {
+  color:white;
+}
+
+a:hover {
+  color:#e24c38;
 }

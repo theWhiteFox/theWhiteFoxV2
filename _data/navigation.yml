@@ -1,6 +1,9 @@
 # example /_data/navigation.yml
-- title: "About"
-  href: /theWhiteFoxV2/about/
-
-- title: "Blog"
+- title: "CV"
+  href: /cv/
   
+- title: "Blog"
+  href: /blog/ 
+
+- title: "About"
+  href: /about/ 

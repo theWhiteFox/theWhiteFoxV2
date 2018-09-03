@@ -34,5 +34,3 @@ This is the git repository for `theWhiteFox.ninja` Web App :boom:
 2. Run 'npm install' via cmd line to get all of the node dependencies, this will also install Gulp for compiling scss and js.
 
 3. Run "gulp" via the cmd line to compile uncompressed sass and js as well as build the website in _site. It will also start Browsersync to watch for changes
-
-`bundle exec gulp`
